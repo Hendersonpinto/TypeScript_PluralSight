@@ -1,0 +1,8 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments":true  ,
+        "outFile": "../js/app.js"  //Remove comments from TS to JS
+    },
+    "files": ["./app.ts"]
+}
